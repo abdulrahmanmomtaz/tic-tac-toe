@@ -4,7 +4,8 @@
 [![Deployed on Vercel](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)](https://vercel.com/)
 
 **A simple two–player Tic Tac Toe game built with React.**  
-Live Demo: **[Click Here](https://tic-tac-toe-react-ten-flax.vercel.app/)**
+Live Demo: **[Click Here]![Uploading Screenshot 2025-08-11 235128.png…]
+()**
 
 ---
 
@@ -19,12 +20,6 @@ This project is a fun, interactive version of Tic Tac Toe built in React using V
 - 🤝 **Draw detection**.
 - 🔄 **Restart** button.
 - 📱 Fully **responsive** design.
-
----
-
-## 📸 Preview
-![Game Screenshot](https://i.imgur.com/mhCjRzZ.png)  
-*(Replace with your own screenshot if you want)*
 
 ---
 
