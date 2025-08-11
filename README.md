@@ -1,12 +1,78 @@
-# React + Vite
+# 🎮 Tic Tac Toe — React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://react.dev/)
+[![Deployed on Vercel](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)](https://vercel.com/)
 
-Currently, two official plugins are available:
+**A simple two–player Tic Tac Toe game built with React.**  
+Live Demo: **[Click Here](https://tic-tac-toe-react-ten-flax.vercel.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Description
+This project is a fun, interactive version of Tic Tac Toe built in React using Vite for fast development and deployment on Vercel. It’s responsive, simple, and showcases clean component-based architecture.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+- 🟢 **Circle vs Cross** gameplay for 2 players.
+- 🔍 Automatic **winner detection**.
+- 🤝 **Draw detection**.
+- 🔄 **Restart** button.
+- 📱 Fully **responsive** design.
+
+---
+
+## 📸 Preview
+![Game Screenshot](https://i.imgur.com/mhCjRzZ.png)  
+*(Replace with your own screenshot if you want)*
+
+---
+
+## 🛠️ Tech Stack
+- **React** (Vite build system)
+- **CSS** for styling
+- **Vercel** for deployment
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js and npm installed.
+
+### Installation
+```bash
+# 1️⃣ Clone the repository
+git clone <repo-url>
+cd <project-folder>
+
+# 2️⃣ Install dependencies
+npm install
+
+# 3️⃣ Run development server
+npm run dev
+
+# 4️⃣ Build for production
+npm run build
+
+# 5️⃣ Preview production build locally
+npm run preview
+📂 Project Structure
+src/
+  components/
+    Cell.jsx         # Single cell component
+  App.jsx            # Main game logic & UI
+  App.css            # Styling for the game
+  main.jsx           # Entry point
+🎮 Game Rules
+Circle always starts first.
+
+Click an empty square to place your mark.
+
+Turns alternate between Circle and Cross.
+
+First to match a winning combination wins.
+
+If all squares are filled without a winner → it’s a draw.
+
+Press Play Again to restart.
